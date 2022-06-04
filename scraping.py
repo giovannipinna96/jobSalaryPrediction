@@ -143,4 +143,5 @@ def get_jobs(keyword, num_jobs, verbose):
     return pd.DataFrame(jobs)  # This line converts the dictionary object into a pandas DataFrame.
 
 
-df_scraping = get_jobs("data scientist", 5, True)
+#for test
+# df_scraping = get_jobs("data scientist", 5, True)
